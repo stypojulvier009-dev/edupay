@@ -1,0 +1,43 @@
+name: edupay
+description: "Application de paiement électronique des frais scolaires"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  fl_chart: ^1.2.0
+  flutter_launcher_icons: ^0.14.4
+  intl: ^0.19.0
+  http: ^1.2.1
+  lottie: ^3.1.2
+  local_auth: ^2.1.8
+  share_plus: ^7.0.0
+  qr_flutter: ^4.1.0
+  shared_preferences: ^2.2.0
+  go_router: ^14.0.0
+  pdf: ^3.10.8
+  printing: ^5.12.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/logo.png
+    - assets/icone.png
+    - assets/animations/check.json
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icone.png"
+  adaptive_icon_background: "#0A2F6C"
+  adaptive_icon_foreground: "assets/icone.png"
