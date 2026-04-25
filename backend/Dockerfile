@@ -9,4 +9,6 @@ COPY . .
 
 EXPOSE 8000
 
+LABEL version="2.0"
+
 CMD ["python", "start.py"]
